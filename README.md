@@ -64,3 +64,6 @@ atコマンドで時刻指定して録音する(未確認)
  
  　　atq
    
+追加
+
+らじるらじるだと　http://engineermemo.seesaa.net/article/433698303.html　のスクリプトでバッチリ
