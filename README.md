@@ -35,6 +35,11 @@ build する
 
     docker images
     
+    REPOSITORY          TAG 
+    myradiko            latest  
+    
+  とかが見えればできてる
+  
 実行する
 ====
 
