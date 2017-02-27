@@ -1,14 +1,13 @@
 radiko memo
 ---
 
-matchyさんの https://gist.github.com/3956266.git　を　Docker で動かす
+matchyさんの https://gist.github.com/3956266.git　をDocker で動かす
 
 Dockerをインストールする
 ====
 
     https://docs.docker.com/docker-for-mac/  とか
-    DockerToolとかとか
-    
+    DockerToolとかとか で
     
 Dockerfile
 ====
@@ -28,13 +27,18 @@ Dockerfile
 
 build する
 ====
+作業ディレクトリを適当に作ってその中に、上のDockerfileを置いてから、そのディレクトリ内で実行
 
     docker build -t myradiko .
 
+確認
+
+    docker images
+    
 実行する (未確認)
 ====
 
-TBSラジオを2分間録音する 結果は/tmp/mp3ディレクトリに
+TBSラジオを2分間録音する 結果は/tmp/mp3ディレクトリにできる
 
     docker run -it --rm -v /tmp/mp3:/home/radiko myradiko /usr/local/bin/rec_radiko.sh TBS 2
     
