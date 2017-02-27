@@ -1,7 +1,7 @@
 radiko memo
 ---
 
-matchyさんの https://gist.github.com/3956266.git　をDocker で動かす
+matchyさんの https://gist.github.com/3956266.git をDocker で動かす
 
 Dockerをインストールする
 ====
